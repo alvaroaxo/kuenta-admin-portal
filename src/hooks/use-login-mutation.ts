@@ -2,7 +2,7 @@ import { useMutation } from "@tanstack/react-query"
 import { z } from "zod"
 
 import { authServices } from "@/services/auth-services"
-import { LoginSchema } from "@/app/auth/login/components/login-schema"
+import {LoginSchema} from "@/app/auth/login/components/login-form";
 
 export type LoginInput = z.infer<typeof LoginSchema>
 
